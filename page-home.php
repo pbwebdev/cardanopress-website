@@ -17,8 +17,7 @@ get_header();
         <div class="container-xxl">
             <div class="col-md-8 mx-auto text-center">
                 <div class="banner">
-                    <h1>Integrating Cardano to WordPress</h1>
-                    <h2>Merging of Two Worlds</h2>
+                    <h1>Integrating Cardano & WordPress</h1>
                     <p>Learn more about how you can connect your WordPress website to the Cardano blockchain creating unique integrated decentralised application experiences.</p>
                     <a class="btn btn-lg btn-primary" href="/products">Learn More</a>
                 </div><!-- .banner -->
@@ -28,38 +27,72 @@ get_header();
 
 
 
-    <div class="container">
+    <div id="features" class="container">
         <div class="features">
 
-            <h2>Learn how out suite of plugins can be utilised by your</h2>
+            <h2 class="text-center">How Our Plugins Can Help</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="col d-flex align-items-start">
+                    <div class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+                    </div>
+                    <div>
+                        <h3>Wallet Integration</h3>
+                        <p>Integrated with popular Cardano wallets to allow for reading wallets, performing transactions and stake pool delegation.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"></use></svg>
+                    </div>
+                    <div>
+                        <h3>Access Control</h3>
+                        <p>Allowing access control on a website based on stake pool delegation, access by tokens within a users wallet or interaction on the blockchain.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"></use></svg>
+                    </div>
+                    <div>
+                        <h3>Cardano Integration</h3>
+                        <p>Unique plugins to perform ISPOs, On-chain Governance, whitelist NFT collection minting, purchasing & sales with ADA and much more...</p>
+                    </div>
+                </div>
+            </div>
 
         </div><!-- .features -->
     </div>
 
-    <div class="container">
-        <div class="case-studies">
+    <div id="case-studies"  class="container">
+        <div class="case-studies  text-center">
 
-            <h2>Learn how others are using CardanoPress.</h2>
+            <h2 class="text-center">Learn how others are using CardanoPress.</h2>
 
         </div><!-- .case studies -->
     </div>
 
-    <div class="container">
-        <div class="resources">
+    <div id="resources" class="container">
+        <div class="resources  text-center">
 
-            <h2>Need help? We have a huge knowledge base & support to get your started!</h2>
+            <h2 class="text-center">Need help?</h2>
+            <p>We have a huge knowledge base & support to get your started!</p>
 
         </div><!-- .resources -->
     </div>
 
 
-    <div class="container">
+    <div id="getStarted" class="container">
         <div class="getStarted">
 
-            <h2>Get Started</h2>
+            <h2 class="text-center">Get Started</h2>
 
         </div><!-- .getStarted -->
+
+
     </div>
+
+
 
 
 <?php
