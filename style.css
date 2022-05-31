@@ -12,10 +12,32 @@
  Text Domain:  cardanopresschildtheme
 */
 
+/* Global styles */
+
+
+
 /* Home page */
 #banner .banner{
     background: url("/wp-content/themes/cardanopress-website/assets/images/header-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    height: 450px;
+    padding: 1em 0;
+}
+
+.features{
+    padding: 1em 0;
+}
+
+.case-studies{
+    padding: 1em 0;
+}
+
+.resources{
+    padding: 1em 0;
+}
+
+.getStarted{
+    padding: 1em 0;
 }

@@ -16,7 +16,10 @@ get_header();
     <div id="banner" class="bd-masthead">
         <div class="banner">
 
-            banner
+            <h1>Integrating Cardano to WordPress</h1>
+            <h2>Merging of Two Worlds</h2>
+            <p>Learn more about how you can connect your WordPress website to the Cardano blockchain creating unique integrated decentralised application experiences.</p>
+            <a href="/products">Learn more</a>
 
         </div><!-- .banner -->
     </div>
@@ -26,15 +29,23 @@ get_header();
     <div class="container">
         <div class="features">
 
-            features
+            <h2>Learn how out suite of plugins can be utilised by your</h2>
 
         </div><!-- .features -->
     </div>
 
     <div class="container">
+        <div class="case-studies">
+
+            <h2>Learn how others are using CardanoPress.</h2>
+
+        </div><!-- .case studies -->
+    </div>
+
+    <div class="container">
         <div class="resources">
 
-            resources
+            <h2>Need help? We have a huge knowledge base & support to get your started!</h2>
 
         </div><!-- .resources -->
     </div>
@@ -43,7 +54,7 @@ get_header();
     <div class="container">
         <div class="getStarted">
 
-            get started
+            <h2>Get Started</h2>
 
         </div><!-- .getStarted -->
     </div>
