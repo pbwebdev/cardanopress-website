@@ -15,26 +15,7 @@ $theme = wp_get_theme( CARDANOPRESS_BOOTSTRAP_THEME_BASE );
 
 		<?php get_sidebar( 'footer' ); ?>
 
-<!--<section id="subscribe">-->
-<!--    <div class="container">-->
-<!--        <div class="row">-->
-<!--            <div class="col-lg-8 m-auto">-->
-<!--                <div class="sub-main">-->
-<!--                    <div class="row">-->
-<!--                        <div class="col-lg-8 col-md-7">-->
-<!--                            <h3>Stay Connected With Us</h3>-->
-<!--                        </div>-->
-<!--                        <div class="col-lg-3 col-md-5 subscripe-btn">-->
-<!--                            <a href="#" data-toggle="modal" data-target="#exampleModal2">Subcribe Us</a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-
-<footer class="footer py-4 py-md-5 mt-5 bg-light">
+<footer class="footer py-4 py-md-5 mt-5 bg-light clearfix">
     <div class="container py-4 py-md-5 px-4 px-md-3">
         <div class="row">
             <div class="col-lg-3 mb-3">
@@ -76,7 +57,7 @@ $theme = wp_get_theme( CARDANOPRESS_BOOTSTRAP_THEME_BASE );
 </footer>
 
 
-		<footer class="site-footer py-2 bg-dark text-light">
+		<footer class="site-footer py-2 bg-dark text-light clearfix">
 			<div class="container">
 				<nav class="d-flex align-items-center justify-content-between">
 					<?php cardanopress_bootstrap_footer_menu(); ?>
