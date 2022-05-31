@@ -36,7 +36,21 @@ h3{
     color: white;
     border: solid 1px white;
 }
-
+.btn-secondary{
+    background: #0de4e4;
+    color: #0a2540;
+    border: solid 1px white;
+}
+.btn-tertiary{
+    background: #39424b;
+    color: white;
+    border: solid 1px white;
+}
+.btn-tertiary:hover{
+    background: #39424b;
+    color: white;
+    border: solid 1px white;
+}
 .dark-background{
     background: #0a2540;
 }
@@ -77,6 +91,7 @@ h3{
 
 #getStarted{
     padding: 4em 0;
+    color: white;
 }
 .getStarted{
     padding: 1em 0;
