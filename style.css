@@ -86,3 +86,11 @@ footer li a:hover{
     padding-left: 0px !important;
     text-decoration: none !important;
 }
+.site-footer a{
+    color: white;
+    text-decoration: underline !important;
+}
+.site-footer a:hover{
+    color: white;
+    text-decoration: none !important;
+}
