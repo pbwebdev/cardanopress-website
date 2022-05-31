@@ -1,7 +1,8 @@
 <?php
 
 /**
- * The template for displaying pages
+Template Name: Home page
+Template Post Type: page
  *
  * @package CardanoPress Bootstrap
  * @since 0.1.0
