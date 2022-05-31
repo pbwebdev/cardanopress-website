@@ -15,4 +15,4 @@ if (empty($text)) {
 
 ?>
 
-<button type='button' @click='showModal = true' class="btn btn-primary"><span class="fa-outline fa-wallet"></span><?php echo $text; ?></button>
+<button type='button' @click='showModal = true' class="btn btn-primary btn-sm"><span class="fa-solid fa-wallet mr-1"></span><?php echo $text; ?></button>
