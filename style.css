@@ -18,15 +18,28 @@
 h1, h2, h3 {
     font-family: 'Oxygen', sans-serif;
 }
+h1{
+    font-size: 51px;
+    color: #333;
+}
+h2{
+    font-size: 32px;
+    color: #9966ff;
+}
+h3{
+    font-size: 21px;
+    color: #0de4e4;
+}
 
 /* Home page */
-#banner .banner{
+#banner {
     background: url("/wp-content/themes/cardanopress-website/assets/images/header-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     height: 450px;
-    padding: 1em 0;
+    padding: 4em 0;
+    color: #333;
 }
 
 .features{
