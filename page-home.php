@@ -14,14 +14,16 @@ get_header();
 
 
     <div id="banner" class="bd-masthead">
-        <div class="banner">
-
-            <h1>Integrating Cardano to WordPress</h1>
-            <h2>Merging of Two Worlds</h2>
-            <p>Learn more about how you can connect your WordPress website to the Cardano blockchain creating unique integrated decentralised application experiences.</p>
-            <a href="/products">Learn more</a>
-
-        </div><!-- .banner -->
+        <div class="container-xxl">
+            <div class="col-md-8 mx-auto text-center">
+                <div class="banner">
+                    <h1>Integrating Cardano to WordPress</h1>
+                    <h2>Merging of Two Worlds</h2>
+                    <p>Learn more about how you can connect your WordPress website to the Cardano blockchain creating unique integrated decentralised application experiences.</p>
+                    <a class="btn btn-lg btn-primary" href="/products">Learn More</a>
+                </div><!-- .banner -->
+            </div>
+        </div>
     </div>
 
 
