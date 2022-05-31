@@ -29,9 +29,10 @@ get_header();
 
     <div id="features" class="container">
         <div class="features">
-
+            <div class="col-md-8 mx-auto text-center">
             <h2 class="text-center">How Our Plugins Help</h2>
             <p>We've done all the hard integration work with the Cardano blockchain and encapsulated them into our installable plugins for WordPress to shortcut the required development time & create awesome experiences.</p>
+            </div>
             <div class="offset-md-1 col-md-10 row g-4 py-5 row-cols-1 row-cols-lg-3">
                 <div class="col d-flex align-items-start">
                     <div class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
