@@ -109,7 +109,7 @@ get_header();
                     <div class="col-lg-3 col-sm-6 mt-4">
                         <div class="card border-0">
                             <figure class="figure">
-                                <img alt="Image placeholder" src="https://cardanopress.io/wp-content/uploads/2022/06/projects-cardanopick.jpg" class="card-img">
+                                <img alt="Image placeholder" src="https://cardanopress.io/wp-content/uploads/2022/06/projects-cardanode.jpg" class="card-img">
                             </figure>
                         </div>
                     </div>
