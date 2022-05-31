@@ -11,3 +11,11 @@
  Tags:         cardano, child-theme
  Text Domain:  cardanopresschildtheme
 */
+
+/* Home page */
+#banner .banner{
+    background: url("/wp-content/themes/cardanopress-website/assets/images/header-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
