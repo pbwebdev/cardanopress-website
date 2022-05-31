@@ -13,9 +13,9 @@ $theme = wp_get_theme( CARDANOPRESS_BOOTSTRAP_THEME_BASE );
 
 		</div><!-- .site-content -->
 
-		<?php get_sidebar( 'footer' ); ?>
+<?php get_sidebar( 'footer' ); ?>
 
-<footer class="footer py-4 py-md-5 mt-5 bg-light clearfix">
+<footer class="footer py-4 py-md-5 mt-5 bg-light clearfix" style="clear: both;">
     <div class="container py-4 py-md-5 px-4 px-md-3">
         <div class="row">
             <div class="col-lg-3 mb-3">
@@ -57,18 +57,18 @@ $theme = wp_get_theme( CARDANOPRESS_BOOTSTRAP_THEME_BASE );
 </footer>
 
 
-		<footer class="site-footer py-2 bg-dark text-light clearfix" style="clear: both;">
-			<div class="container">
-				<nav class="d-flex align-items-center justify-content-between">
-					<?php cardanopress_bootstrap_footer_menu(); ?>
+<footer class="site-footer py-2 bg-dark text-light clearfix" style="clear: both;">
+    <div class="container">
+        <nav class="d-flex align-items-center justify-content-between">
+            <?php cardanopress_bootstrap_footer_menu(); ?>
 
-					<div class="copyright">
-						<small>Copyright &copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="text-light"><?php bloginfo( 'name' ); ?></a>.</small>
-						<span class="small">Powered by <a href="<?php echo esc_url( $theme->get( 'AuthorURI' ) ); ?>" class="text-light"><?php echo esc_html( $theme->get( 'Author' ) ); ?></a>.</span>
-					</div>
-				</nav>
-			</div>
-		</footer><!-- .site-footer -->
+            <div class="copyright">
+                <small>Copyright &copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="text-light"><?php bloginfo( 'name' ); ?></a>.</small>
+                <span class="small">Powered by <a href="<?php echo esc_url( $theme->get( 'AuthorURI' ) ); ?>" class="text-light"><?php echo esc_html( $theme->get( 'Author' ) ); ?></a>.</span>
+            </div>
+        </nav>
+    </div>
+</footer><!-- .site-footer -->
 
 		<?php wp_footer(); ?>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
