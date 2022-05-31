@@ -57,7 +57,7 @@ $theme = wp_get_theme( CARDANOPRESS_BOOTSTRAP_THEME_BASE );
 </footer>
 
 
-		<footer class="site-footer py-2 bg-dark text-light clearfix">
+		<footer class="site-footer py-2 bg-dark text-light clearfix" style="clear: both;">
 			<div class="container">
 				<nav class="d-flex align-items-center justify-content-between">
 					<?php cardanopress_bootstrap_footer_menu(); ?>
