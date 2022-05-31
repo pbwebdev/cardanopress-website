@@ -31,6 +31,19 @@ h3{
     color: #0de4e4;
 }
 
+.btn-primary{
+    background: #9966ff;
+    color: white;
+    border: solid 1px white;
+}
+
+.dark-background{
+    background: #0a2540;
+}
+.dark-background h2{
+    color: #0de4e4;
+}
+
 /* Home page */
 #banner {
     background: url("/wp-content/themes/cardanopress-website/assets/images/header-bg.jpg");
@@ -68,6 +81,43 @@ h3{
 .getStarted{
     padding: 1em 0;
 }
+
+
+/*===========================
+12.0 *** SUBSCRIBE AREA START ***
+=============================*/
+#subscribe {
+    padding: 30px 0;
+    margin-bottom: -70px;
+}
+
+.sub-main {
+    padding: 30px 0;
+    background: #9966ff;
+    border-radius: 50px;
+}
+
+.sub-main h3 {
+    padding-left: 60px;
+    color: white;
+    margin: 0;
+}
+
+.sub-main a {
+    background: white;
+    padding: 15px 25px;
+    border-radius: 50px;
+    color: #9966ff;
+    text-underline: none;
+}
+.sub-main a:hover {
+    background: #9966ff;
+    color: white;
+    border: white;
+    border: solid 1px white;
+    text-underline: none;
+}
+
 
 /* Global Footer */
 footer ul{

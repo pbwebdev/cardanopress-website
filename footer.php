@@ -15,7 +15,24 @@ $theme = wp_get_theme( CARDANOPRESS_BOOTSTRAP_THEME_BASE );
 
 		<?php get_sidebar( 'footer' ); ?>
 
-
+<!--<section id="subscribe">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-lg-8 m-auto">-->
+<!--                <div class="sub-main">-->
+<!--                    <div class="row">-->
+<!--                        <div class="col-lg-8 col-md-7">-->
+<!--                            <h3>Stay Connected With Us</h3>-->
+<!--                        </div>-->
+<!--                        <div class="col-lg-3 col-md-5 subscripe-btn">-->
+<!--                            <a href="#" data-toggle="modal" data-target="#exampleModal2">Subcribe Us</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
 
 <footer class="footer py-4 py-md-5 mt-5 bg-light">
     <div class="container py-4 py-md-5 px-4 px-md-3">

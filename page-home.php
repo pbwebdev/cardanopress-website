@@ -34,7 +34,7 @@ get_header();
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
                 <div class="col d-flex align-items-start">
                     <div class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                        <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+                        <span class="fa-solid fa-wallet"></span>
                     </div>
                     <div>
                         <h3>Wallet Integration</h3>
@@ -43,7 +43,7 @@ get_header();
                 </div>
                 <div class="col d-flex align-items-start">
                     <div class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                        <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"></use></svg>
+                        <span class="fa-solid fa-lock"></span>
                     </div>
                     <div>
                         <h3>Access Control</h3>
@@ -52,7 +52,7 @@ get_header();
                 </div>
                 <div class="col d-flex align-items-start">
                     <div class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                        <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"></use></svg>
+                        <span class="fa-solid fa-cube"></span>
                     </div>
                     <div>
                         <h3>Cardano Integration</h3>
@@ -64,12 +64,14 @@ get_header();
         </div><!-- .features -->
     </div>
 
-    <div id="case-studies"  class="container">
-        <div class="case-studies  text-center">
+    <div class="dark-background">
+        <div id="case-studies"  class="container">
+            <div class="case-studies  text-center">
 
-            <h2 class="text-center">Learn how others are using CardanoPress.</h2>
+                <h2 class="text-center">Learn how others are using CardanoPress.</h2>
 
-        </div><!-- .case studies -->
+            </div><!-- .case studies -->
+        </div>
     </div>
 
     <div id="resources" class="container">
@@ -81,8 +83,8 @@ get_header();
         </div><!-- .resources -->
     </div>
 
-
-    <div id="getStarted" class="container">
+<div class="dark-background">
+    <div id="getStarted" class="container ">
         <div class="getStarted">
 
             <h2 class="text-center">Get Started</h2>
@@ -91,7 +93,7 @@ get_header();
 
 
     </div>
-
+</div>
 
 
 
