@@ -13,7 +13,7 @@ get_header();
 ?>
 
 
-    <div class="container">
+    <div id="banner" class="bd-masthead">
         <div class="banner">
 
             banner

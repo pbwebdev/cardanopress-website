@@ -51,4 +51,4 @@
 		</header><!-- .site-header -->
 
 		<div id="site-content" class="site-content">
-			<?php get_template_part( 'template-parts/global', 'banner' ); ?>
+			<?php //get_template_part( 'template-parts/global', 'banner' ); ?>
