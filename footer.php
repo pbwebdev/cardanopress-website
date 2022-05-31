@@ -15,7 +15,7 @@ $theme = wp_get_theme( CARDANOPRESS_BOOTSTRAP_THEME_BASE );
 
 <?php get_sidebar( 'footer' ); ?>
 
-<footer class="footer py-4 py-md-5 mt-5 bg-light clearfix" style="clear: both;">
+<footer class="footer py-4 py-md-5 bg-light clearfix" style="clear: both;">
     <div class="container py-4 py-md-5 px-4 px-md-3">
         <div class="row">
             <div class="col-lg-3 mb-3">
