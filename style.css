@@ -41,19 +41,48 @@ h3{
     padding: 4em 0;
     color: #333;
 }
-
+#features{
+    padding: 4em 0;
+}
 .features{
     padding: 1em 0;
 }
 
+#case-studies{
+    padding: 4em 0;
+}
 .case-studies{
     padding: 1em 0;
 }
 
+#resources{
+    padding: 4em 0;
+}
 .resources{
     padding: 1em 0;
 }
 
+#getStarted{
+    padding: 4em 0;
+}
 .getStarted{
     padding: 1em 0;
+}
+
+/* Global Footer */
+footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+footer li{
+    list-style: none;
+    padding-left: 0;
+}
+footer li a{
+    padding-left: 0px !important;
+    text-decoration: underline !important;
+}
+footer li a:hover{
+    padding-left: 0px !important;
+    text-decoration: none !important;
 }
