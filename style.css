@@ -75,13 +75,6 @@ h3{
     padding: 1em 0;
 }
 
-#case-studies{
-    padding: 4em 0;
-}
-.case-studies{
-    padding: 1em 0;
-}
-
 #resources{
     padding: 4em 0;
 }
@@ -89,11 +82,11 @@ h3{
     padding: 1em 0;
 }
 
-#getStarted{
+#case-studies, #getStarted{
     padding: 4em 0;
     color: white;
 }
-.getStarted{
+.case-studies, .getStarted{
     padding: 1em 0;
 }
 

@@ -66,23 +66,67 @@ get_header();
         </div><!-- .features -->
     </div>
 
+
     <div class="dark-background">
+
         <div id="case-studies"  class="container">
             <div class="case-studies  text-center">
 
-                <h2 class="text-center">Built with CardanoPress</h2>
+                <h2>Built with CardanoPress</h2>
                 <p>See who else is building on CardanoPress</p>
+
+                <div class="mt-4">
+                    <a href="#" class="btn btn-secondary btn-icon my-2" target="_blank">
+                        <span class="btn-inner--text">See more projects</span>
+                        <span class="btn-inner--icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg> </span></a>
+                </div>
+
+                <div class="row mt-6 mb-n10 position-relative zindex-100">
+                    <div class="col-lg-3 col-sm-6 mt-4">
+                        <div class="card border-0">
+                            <figure class="figure">
+                                <img alt="Image placeholder" src="https://cardanopress.io/wp-content/uploads/2022/06/projects-cardanopick.jpg" class="card-img">
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 mt-4">
+                        <div class="card border-0">
+                            <figure class="figure">
+                                <img alt="Image placeholder" src="https://cardanopress.io/wp-content/uploads/2022/06/projects-adawaifus.jpg" class="card-img">
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 mt-4">
+                        <div class="card border-0">
+                            <figure class="figure">
+                                <img alt="Image placeholder" src="https://cardanopress.io/wp-content/uploads/2022/06/projects-gokey.jpg" class="card-img">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt-4">
+                        <div class="card border-0">
+                            <figure class="figure">
+                                <img alt="Image placeholder" src="https://cardanopress.io/wp-content/uploads/2022/06/projects-cardanopick.jpg" class="card-img">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
 
             </div><!-- .case studies -->
         </div>
     </div>
 
+
     <div id="resources" class="container">
         <div class="resources  text-center">
+            <div class="getStarted text-center">
 
-            <h2 class="text-center">Need help?</h2>
-            <p>We have documentation, a knowledge base & community support forum to get your started!</p>
-
+                <h2 class="text-center">Need help?</h2>
+                <p>We have documentation, a knowledge base & community support forum to get your started!</p>
+            </div>
         </div><!-- .resources -->
     </div>
 
