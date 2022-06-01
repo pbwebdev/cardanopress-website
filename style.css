@@ -61,6 +61,10 @@ h3{
     color: #0de4e4;
 }
 
+.card {
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 15%);
+}
+
 /* Home page */
 #banner {
     background: url("/wp-content/themes/cardanopress-website/assets/images/header-bg.jpg");

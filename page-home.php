@@ -36,7 +36,7 @@ get_header();
             <div class="offset-md-1 col-md-10 row g-4 py-5 row-cols-1 row-cols-lg-3">
                 <div class="col d-flex align-items-start">
                     <div class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                        <span class="fa-solid fa-wallet"></span>
+                        <span class="fa-solid fa-wallet fa-2xl"></span>
                     </div>
                     <div>
                         <h3>Wallet Integration</h3>
@@ -45,7 +45,7 @@ get_header();
                 </div>
                 <div class="col d-flex align-items-start">
                     <div class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                        <span class="fa-solid fa-lock"></span>
+                        <span class="fa-solid fa-lock fa-2xl"></span>
                     </div>
                     <div>
                         <h3>Paywall Content & Access Control</h3>
@@ -54,7 +54,7 @@ get_header();
                 </div>
                 <div class="col d-flex align-items-start">
                     <div class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                        <span class="fa-solid fa-cube"></span>
+                        <span class="fa-solid fa-cube fa-2xl"></span>
                     </div>
                     <div>
                         <h3>Cardano Usecases</h3>
@@ -121,12 +121,57 @@ get_header();
 
 
     <div id="resources" class="container">
-        <div class="resources  text-center">
-            <div class="getStarted text-center">
+        <div class="resources offset-md-1 col-md-10 ">
+            <div class="getStarted  text-center">
 
                 <h2 class="text-center">Need help?</h2>
                 <p>We have documentation, a knowledge base & community support forum to get your started!</p>
             </div>
+
+            <div class="row mt-lg-5 mt-4">
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="card">
+                        <div class="card-body border-radius-lg position-relative overflow-hidden pb-4 px-sm-5 ">
+                            <span class="fa-solid fa-comment fa-2xl mt-3"></span>
+                            <h3 class="mt-2">Community Support</h3>
+                            <p class="mb-3">Engage with other CardanoPress users in the ecosystem. Learn from each other and share your knowledge.</p>
+                            <a href="/community/" class="font-weight-bold text-xs text-uppercase font-weight-bolder text-info icon-move-right">
+                                Forums
+                                <span class="fas fa-arrow-right text-xs ms-1" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="card">
+                        <div class="card-body border-radius-lg position-relative overflow-hidden pb-4 px-sm-5 ">
+                            <span class="fa-solid fa-book fa-2xl mt-3"></span>
+                            <h3 class="mt-2">Knowledge Base</h3>
+                            <p class="mb-3">Access our detailed step by step documentation to help take your CardanoPress website to the next level.</p>
+                            <a href="/docs/" class="font-weight-bold text-xs text-uppercase font-weight-bolder text-info icon-move-right">
+                                Docs
+                                <span class="fas fa-arrow-right text-xs ms-1" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="card">
+                        <div class="card-body border-radius-lg position-relative overflow-hidden pb-4 px-sm-5 ">
+                            <span class="fa-solid fa-headset fa-2xl mt-3"></span>
+                            <h3 class="mt-2">Premium Support</h3>
+                            <p class="mb-3">Access professional development & support services. We'll handle the technicals to let you focus on your project.</p>
+                            <a href="/contact/" class="font-weight-bold text-xs text-uppercase font-weight-bolder text-info icon-move-right">
+                                Forums
+                                <span class="fas fa-arrow-right text-xs ms-1" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
         </div><!-- .resources -->
     </div>
 
