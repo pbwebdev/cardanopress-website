@@ -30,25 +30,25 @@ $theme = wp_get_theme( CARDANOPRESS_BOOTSTRAP_THEME_BASE );
             </div>
             <div class="col-6 col-lg-2 offset-lg-1 mb-3">
 
-                <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Footer 1") ) : ?>
+                <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("CP Footer 1") ) : ?>
                 <?php endif;?>
 
             </div>
             <div class="col-6 col-lg-2 mb-3">
 
-                <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Footer 2") ) : ?>
+                <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("CP Footer 2") ) : ?>
                 <?php endif;?>
 
             </div>
             <div class="col-6 col-lg-2 mb-3">
 
-                <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Footer 3") ) : ?>
+                <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("CP Footer 3") ) : ?>
                 <?php endif;?>
 
             </div>
             <div class="col-6 col-lg-2 mb-3">
 
-                <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Footer 4") ) : ?>
+                <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("CP Footer 4") ) : ?>
                 <?php endif;?>
 
             </div>
