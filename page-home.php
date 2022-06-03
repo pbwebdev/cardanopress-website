@@ -18,7 +18,7 @@ get_header();
             <div class="col-md-8 mx-auto text-center">
                 <div class="banner">
                     <div class="col-md-8 mx-auto">
-                        <h1>Integrating Cardano & WordPress</h1>
+                        <h1 style="text-shadow: 2px 2px 1px #333;">Integrating Cardano & WordPress</h1>
                         <p class="h5 white my-3">Learn how you can connect your WordPress website to the Cardano blockchain, creating unique integrated decentralised application experiences.</p>
                         <a class="btn btn-primary" href="/products">Learn more</a>
                     </div>
