@@ -78,6 +78,9 @@ h3{
     padding: 5em 0;
     color: white;
 }
+#banner h1{
+    color: white;
+}
 #features{
     padding: 4em 0;
 }
