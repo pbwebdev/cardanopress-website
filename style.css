@@ -185,3 +185,16 @@ footer li a:hover{
     color: white;
     text-decoration: none !important;
 }
+
+
+/* RANKMATH */
+.rank-math-howto-description p{
+    font-size: 2em;
+    margin: 1em 0 0.5em;
+}
+
+/* BETTERDOCS */
+.betterdocs-credit{
+    display: none;
+    visibility: hidden;
+}
