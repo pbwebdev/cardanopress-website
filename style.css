@@ -198,3 +198,7 @@ footer li a:hover{
     display: none;
     visibility: hidden;
 }
+
+img.attachment-full{
+    margin-bottom: 1em;
+}
